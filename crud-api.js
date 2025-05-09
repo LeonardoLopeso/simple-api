@@ -12,7 +12,7 @@ let users = [
 
 // Rota de teste
 app.get('/', (req, res) => {
-    res.send('API CRUD de Teste - Funcionando!');
+    res.send('Server is running...');
 });
 
 // GET all users
